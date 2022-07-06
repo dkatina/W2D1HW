@@ -24,6 +24,8 @@ for number in range(101):
             print(number)
         elif number % test != 0:
             n += 1
+        else:
+            break
     if n == 4:
         print(number)
 print("End of prime numbers")
